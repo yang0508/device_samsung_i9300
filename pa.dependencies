@@ -4,6 +4,12 @@
         "target_path": "device/samsung/i9300"
     },
     {
+        "remote":      "cm",
+        "repository":  "android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412",
+        "revision":    "cm-11.0"
+    },
+    {
         "repository":  "android_device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common",
     },
