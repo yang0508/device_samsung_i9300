@@ -1,0 +1,116 @@
+[
+    {
+        "repository":  "android_device_samsung_i9300",
+        "target_path": "device/samsung/i9300"
+    },
+    {
+        "repository":  "android_device_samsung_smdk4412-common",
+        "target_path": "device/samsung/smdk4412-common",
+    },
+    {
+        "remote":      "cm",
+        "repository":  "android_packages_apps_SamsungServiceMode",
+        "target_path": "packages/apps/SamsungServiceMode",
+        "revision":    "cm-11.0"
+    },
+    {
+        "repository":  "android_hardware_samsung",
+        "target_path": "hardware/samsung",
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_packages_apps_Apollo",
+        "target_path": "packages/apps/Apollo",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "blobs",
+        "repository":  "proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_bash",
+        "target_path": "external/bash",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_htop",
+        "target_path": "external/htop",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_libncurses",
+        "target_path": "external/libncurses",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_lsof",
+        "target_path": "external/lsof",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_lzo",
+        "target_path": "external/lzo",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_nano",
+        "target_path": "external/nano",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_openvpn",
+        "target_path": "external/openvpn",
+        "revision":    "cm-10.2"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_powertop",
+        "target_path": "external/powertop",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_rsync",
+        "target_path": "external/rsync",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_vim",
+        "target_path": "external/vim",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_external_wpa_supplicant_8_ti",
+        "target_path": "external/wpa_supplicant_8_ti",
+        "revision":    "cm-10.2"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/android_hardware_ti_wlan",
+        "target_path": "hardware/ti/wlan",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "cm",
+        "repository":  "android_packages_apps_SoundRecorder",
+        "target_path": "packages/apps/SoundRecorder",
+        "revision":    "cm-11.0"
+    },    
+    {
+        "remote":      "cm",
+        "repository":  "CyanogenMod/Superuser",
+        "target_path": "external/koush/Superuser",
+        "revision":    "cm-11.0"
+    }
+]
