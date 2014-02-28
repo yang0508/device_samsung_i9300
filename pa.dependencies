@@ -101,7 +101,7 @@
         "remote":      "cm",
         "repository":  "CyanogenMod/android_external_wpa_supplicant_8_ti",
         "target_path": "external/wpa_supplicant_8_ti",
-        "revision":    "cm-10.2"
+        "revision":    "cm-11.0"
     },
     {
         "remote":      "cm",
