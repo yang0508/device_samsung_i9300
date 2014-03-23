@@ -108,17 +108,5 @@
         "repository":  "CyanogenMod/android_hardware_ti_wlan",
         "target_path": "hardware/ti/wlan",
         "revision":    "cm-11.0"
-    },
-    {
-        "remote":      "cm",
-        "repository":  "CyanogenMod/android_packages_apps_SoundRecorder",
-        "target_path": "packages/apps/SoundRecorder",
-        "revision":    "cm-11.0"
-    },    
-    {
-        "remote":      "cm",
-        "repository":  "CyanogenMod/Superuser",
-        "target_path": "external/koush/Superuser",
-        "revision":    "cm-11.0"
     }
 ]
