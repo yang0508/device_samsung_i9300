@@ -1,4 +1,4 @@
-import init.smdk4x12.usb.rc
+import init.SHV-E210K.usb.rc
 
 on init
     mkdir /mnt/shell/emulated 0700 shell shell
@@ -28,7 +28,7 @@ on init
     insmod /system/lib/modules/Si4709_driver.ko
 
 on fs
-    mount_all /fstab.smdk4x12
+    mount_all /fstab.SHV-E210K
 
     setprop ro.crypto.fuse_sdcard true
     
@@ -137,6 +137,10 @@ on post-fs-data
     chown system system /sys/class/mdnie/mdnie/negative
     write /sys/class/mdnie/mdnie/scenario 0
     write /sys/class/mdnie/mdnie/mode 0
+
+# tdmb ownership
+    chown system system /dev/tdmb
+    chmod 0660 /dev/tdmb
 
 # Permissions for System Server and daemons.
     chown radio system /sys/android_power/state
@@ -363,8 +367,8 @@ on post-fs-data
 on boot
     mount debugfs /sys/kernel/debug /sys/kernel/debug
 
-    setprop ro.build.product smdk4x12
-    setprop ro.product.device smdk4x12
+    setprop ro.build.product SHV-E210K
+    setprop ro.product.device SHV-E210K
     setprop ro.radio.noril yes
     setprop wifi.interface wlan0
 
@@ -515,3 +519,11 @@ service bootsnd /system/bin/tinyplay /system/etc/sound/silence.wav -D 0 -d 0 -p 
     user root
     group audio
     oneshot
+
+# Call Boeffla-Kernel init script
+service boeffla-init /sbin/boeffla-init.sh
+    class main
+    user root
+    group root
+    oneshot
+
