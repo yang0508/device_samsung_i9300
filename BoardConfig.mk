@@ -29,10 +29,10 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9300/bluetooth
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := cyanogenmod_i9300_defconfig
+TARGET_KERNEL_CONFIG := e210k_defconfig
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300
+TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300,c1skt,e210s,SHV-E210S,c1ktt,e210k,SHV-E210K
 
 # inherit from the proprietary version
 -include vendor/samsung/i9300/BoardConfigVendor.mk
