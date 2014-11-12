@@ -29,26 +29,14 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9300/bluetooth
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := e210k_defconfig
+TARGET_KERNEL_CONFIG := m440s_defconfig
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/samsung/i9300/rootdir/fstab.SHV-E210K
+TARGET_RECOVERY_FSTAB := device/samsung/i9300/rootdir/fstab.SHW-M440S
 RECOVERY_FSTAB_VERSION := 2
 
-BOARD_SEPOLICY_UNION += \
-    device.te \
-    domain.te \
-    file.te \
-    file_contexts \
-    init.te \
-    mediaserver.te \
-    rild.te \
-    system.te \
-    ueventd.te \
-    wpa_supplicant.te
-
 # assert
-TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300,c1skt,e210s,SHV-E210S,c1ktt,e210k,SHV-E210K
+TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300,m0skt,m440s,SHW-M440S
 
 COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
 
